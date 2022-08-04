@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T20:25:40.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" version="20.2.3" etag="RHz7l2SPYxOiy5x_P7ev" type="github"><diagram id="wLaQUGVE4KvvAdQsRnkN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-04T21:22:38.249Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="9VLVSm57HonGfvCoeVYw" version="20.2.3" type="github">
+  <diagram id="wLaQUGVE4KvvAdQsRnkN" name="Page-1">
+    <mxGraphModel dx="1226" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vs540bEeWlle0ZmJ25x2-1" value="Next.JS App" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="500" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.05;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vs540bEeWlle0ZmJ25x2-1" target="vs540bEeWlle0ZmJ25x2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="560" as="sourcePoint" />
+            <mxPoint x="280" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-3" value="Next.JS API Functions" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-5" value="FantasyPros.com" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="740" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-6" value="Player 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="vs540bEeWlle0ZmJ25x2-5">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-7" value="Player 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="vs540bEeWlle0ZmJ25x2-5">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-8" value="Player 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="vs540bEeWlle0ZmJ25x2-5">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-10" value="GitHub Action Chron Job runs and invokes API that uses Puppeteer Scrapes FP&#39;s Draft Rankings and transforms Player Rankings to be stored in Cloudflare R2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="610" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-13" value="Cloudflare R2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="510" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-14" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vs540bEeWlle0ZmJ25x2-3" target="vs540bEeWlle0ZmJ25x2-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="530" as="sourcePoint" />
+            <mxPoint x="460" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=0.128;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vs540bEeWlle0ZmJ25x2-3" target="vs540bEeWlle0ZmJ25x2-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="530" as="sourcePoint" />
+            <mxPoint x="380" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-16" value="GitHub Action Cron to trigger Web Scraper" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-17" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.433;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.578;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vs540bEeWlle0ZmJ25x2-16" target="vs540bEeWlle0ZmJ25x2-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="460" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-18" value="Next Auth" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vs540bEeWlle0ZmJ25x2-3" target="vs540bEeWlle0ZmJ25x2-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.07;exitY=0.21;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vs540bEeWlle0ZmJ25x2-1" target="vs540bEeWlle0ZmJ25x2-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-21" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Draft Targets&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Player1: Player&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-22" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="vs540bEeWlle0ZmJ25x2-21">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-23" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Draft Tool /w Rankings&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Player1: Player&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="680" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vs540bEeWlle0ZmJ25x2-24" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="vs540bEeWlle0ZmJ25x2-23">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
